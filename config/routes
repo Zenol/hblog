@@ -4,3 +4,5 @@
 /robots.txt RobotsR GET
 
 / HomeR GET
+/post/#String PostR GET
+/post/#String/#String PostLR GET
