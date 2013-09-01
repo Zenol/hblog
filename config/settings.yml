@@ -1,0 +1,20 @@
+Default: &defaults
+  host: "*4" # any IPv4 host
+  port: 3000
+  approot: "http://www.zenol.fr/site/"
+  copyright: © Jérémy Cochoy 2013
+  #analytics: UA-YOURCODE
+
+Development:
+  #approot: "http://localhost:3000"
+  <<: *defaults
+
+Testing:
+  <<: *defaults
+
+Staging:
+  <<: *defaults
+
+Production:
+  #approot: "http://www.zenol.fr/site/"
+  <<: *defaults
